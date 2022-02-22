@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    margin: auto;
+}
+
+.header-logo{
+    background-color: white;
+    display: flex;
+    width: 140px;
+    height: 80px;
+    margin-left: 177px;
+
+}
+.header{
+    background-color:#0e3252;
+    width: 100%;
+    display: flex;
+}
+.header-info-contact{
+    flex: 1;
+    color: #fff;
+}
+.header-info-contact , .phone-number {
+    
+}
+
+.header-nav{
+    /* display: flex; */
+}
