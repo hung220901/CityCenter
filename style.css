@@ -6,13 +6,15 @@
 
 #logo{
     margin: auto;
+    width: 140px;
+    height: 80px;
 }
 
 .header-logo{
     background-color: white;
     display: flex;
-    width: 140px;
-    height: 80px;
+    /* width: 140px;
+    height: 80px; */
     margin-left: 177px;
 
 }
@@ -20,15 +22,19 @@
     background-color:#0e3252;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+  
 }
 .header-info-contact{
-    flex: 1;
+    /* flex: 1; */
     color: #fff;
+    
+    
 }
 .header-info-contact , .phone-number {
     
 }
 
 .header-nav{
-    /* display: flex; */
+  
 }
