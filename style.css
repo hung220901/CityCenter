@@ -108,6 +108,7 @@ html{
 }
 
 .about-text{
+    margin:3% 0 0 3%;
     
 }
 .about-img{
@@ -119,4 +120,84 @@ html{
 }
 .about-left{
     margin: 5% 5%;
+}
+.about-us-title{
+    margin:auto;
+
+}
+
+
+.dev-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 5% 5%;
+    
+   
+}
+
+
+.content-box-top{
+    display: flex;
+}
+.content-box-bottom{
+    display:flex;
+}
+
+.icon-red-splash{
+    width:30px;
+    height:70px;
+    
+}
+.about-right-title{
+    display: flex;
+    
+}
+
+
+
+.develop-way{
+   
+    background:url(./images/background-dev-way.svg  );
+    background-size: 100%;
+    
+   
+}
+.dev-title-left{
+    /* flex-direction: flex-start; */
+}
+.dev-title-left{
+    display: flex;
+}
+.way-dev-text{
+   margin: auto;
+   
+}
+.icon-dev-title{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width:30px;
+    height:70px;
+  
+}
+
+.content-box-top{
+    display: flex;
+    justify-content: space-around;
+}
+.content-box-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-item{
+    background-color: white;
+    width: 200px;
+    height:50px;
+    box-shadow: 1px 1px black;
+    margin: 0 0 20px 10px;
+    display: flex;
+}
+.icon-item{
+    width:50px;
+    height:50px;
 }
