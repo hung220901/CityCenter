@@ -65,6 +65,12 @@ html{
     color: red;
 }
 
+.red-text-heading{
+    color: red;
+    font-weight: bold;
+    font-size:24px;
+}
+
 .ml-10{
     margin-left: 20px;
 }
@@ -104,7 +110,10 @@ html{
 }
 .about-us{
     display: flex;
-
+    background-image:linear-gradient(0,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.5)) ,url(./images/background-logo.svg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin-top: 5%;
 }
 
 .about-text{
@@ -119,11 +128,19 @@ html{
     margin: 5% 5%;
 }
 .about-left{
-    margin: 5% 5%;
+    /* margin: 5% 5%; */
+    
+    /* background: rgba(255, 255, 255, 0.5) url(./images/background-logo.svg); */
+    background-size:100% ;
+    
+
 }
 .about-us-title{
     margin:auto;
 
+}
+.background-logo{
+    opacity: 0.2;
 }
 
 
@@ -162,9 +179,7 @@ html{
     
    
 }
-.dev-title-left{
-    /* flex-direction: flex-start; */
-}
+
 .dev-title-left{
     display: flex;
 }
@@ -193,11 +208,16 @@ html{
     background-color: white;
     width: 200px;
     height:50px;
-    box-shadow: 1px 1px black;
+    box-shadow: 0.1px 0.1px 0.1px 0.1px black;
+    border-radius:10px;
     margin: 0 0 20px 10px;
     display: flex;
 }
 .icon-item{
-    width:50px;
-    height:50px;
+    width:30px;
+    height:30px;
+    margin:auto;
+}
+.text-title{
+    margin:auto;
 }
