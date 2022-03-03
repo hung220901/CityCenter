@@ -357,7 +357,7 @@ html{
     
 }
 .news{
-    padding: 0 5%;
+    padding: 5% 5%;
 }
 .news-head{
     display:flex;
@@ -411,4 +411,81 @@ html{
 }
 .news-list-mid, .news-list-last{
     padding: 0 1%;
+}
+
+.partner{
+
+    height: 300px;
+    background-image:linear-gradient(0,rgba(255, 0, 0, 0.6),rgba(255, 0, 0, 0.6)) ,url(./images/banner_PearlHoiAn.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.partner-head-left{
+    display:flex;
+}
+.partner-head{
+    display:flex;
+    justify-content: space-between;
+}
+.list-partner > li {
+    display: inline-block;
+    padding-right: 2px;
+    margin-left: 100px;
+    color: white;
+
+}
+.list-partner>li::before{
+    content:'○';
+    
+    position: relative;
+    
+
+}
+
+.partner-content{
+    padding: 5% 5%;
+}
+.partner-item-active li{
+    display: list-item;
+}
+.parter-text{
+    margin: auto;
+}
+.img-partner{
+    display:flex;
+    justify-content:space-around;
+   
+}
+.img-partner-item{
+    background-color: white;
+    padding: 5px 20px;
+    border-radius:10px;
+    
+    
+}
+.partner-logo{
+    width: 100px;
+    height: 50px;
+}
+.footer{
+    display: flex;
+    background-color:#393939;
+    padding: 5%;
+    justify-content: space-around;
+}
+.footer-logo-white{
+    width: 150px;
+    height: 110px;
+}
+.footer-title{
+    color: white;
+}
+.footer-nav{
+    display: flex;
+    padding-top: 10%;
+    flex-direction: column;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: white
 }
