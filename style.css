@@ -6,7 +6,9 @@
 
 html{
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+    
 }
+
 
 #logo{
     margin: auto;
@@ -17,7 +19,7 @@ html{
 
 .header-logo{
     background-color: white;
-    margin-left: 10%;
+    margin-left: 5%;
     display: flex;
 
 }
@@ -43,7 +45,7 @@ html{
 .header-nav{
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 .nav-box{
@@ -86,7 +88,7 @@ html{
 
 .banner{
     background:rgba(0,0,0,0.5) url(./images/banner_PearlHoiAn.png);
-    background-size:100% 100%;
+    background-size:100%;
     background-blend-mode: darken;
     width: 100%;
     height: 600px;
@@ -113,7 +115,7 @@ html{
     background-image:linear-gradient(0,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.5)) ,url(./images/background-logo.svg);
     background-size: 40%;
     background-repeat: no-repeat;
-    margin-top: 5%;
+    padding: 5% 5%;
 }
 
 .about-text{
@@ -147,7 +149,7 @@ html{
 .dev-title{
     display: flex;
     justify-content: space-between;
-    margin: 0 5% 5% 5%;
+    /* margin: 0 5% 5% 5%; */
     
    
 }
@@ -163,6 +165,7 @@ html{
 .icon-red-splash{
     width:30px;
     height:70px;
+    margin: auto;
     
 }
 .about-right-title{
@@ -173,11 +176,11 @@ html{
 
 
 .develop-way{
-   
+ 
     background:url(./images/background-dev-way.svg  );
     background-size: 100%;
     
-   
+    padding: 5% 5%;
 }
 
 .dev-title-left{
@@ -187,12 +190,22 @@ html{
    margin: auto;
    
 }
-.icon-dev-title{
+.icon-red-splash-right{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     width:30px;
     height:70px;
-  
+}
+
+.icon-white-splash-right{
+    margin:auto;
+    width:30px;
+    height:70px;
+}
+.year-dev{
+    margin: 2%;
+    
+    
 }
 
 .content-box-top{
@@ -206,10 +219,10 @@ html{
 
 .content-item{
     background-color: white;
-    width: 200px;
+    width: 250px;
     height:50px;
-    box-shadow: 0.1px 0.1px 0.1px 0.1px black;
-    border-radius:10px;
+    box-shadow:  0.1px 0.2px black;
+   
     margin: 0 0 20px 10px;
     display: flex;
 }
@@ -220,4 +233,182 @@ html{
 }
 .text-title{
     margin:auto;
+    text-align: left;
+}
+
+
+.title-field-operation{
+    display: flex;
+}
+.field-operation{
+    
+    color: white;
+    background: url(./images/field-operation-logo.svg);
+    background-size: 100%;
+}
+.field-operation-img{
+    width:500px;
+    height:300px;
+    
+}
+
+
+.white-text-heading{
+    color: white;
+    font-weight: bold;
+    font-size:24px;
+    margin: auto;
+}
+.field-operation-bg{
+    background:rgba(255, 0, 0, 0.8);
+    padding: 5% 5%;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.option-field-operation{
+    padding:5% 0 0 25%;
+}
+
+.field-operation-item-active{
+    background-color: white;
+    border-radius: 5px;
+    color: red;
+    list-style-position: inside;
+    padding: 1% 5%;
+}
+.field-operation-item{
+    list-style-type: circle;
+    padding: 1% 5%;
+    white-space: nowrap;
+    list-style-position: inside;
+}
+.field-operation-right{
+    padding-right: 10%;
+}
+
+.outstanding-project{
+    padding: 5% 5%;
+}
+
+.outstanding-project-heading{
+    display:flex;
+}
+.outstanding-project-title{
+    margin: auto;
+}
+.outstanding-project-top{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-more-op{
+    border: none;
+}
+
+.outstanding-project-bot{
+    display: flex;
+    
+}
+.outstanding-project-left{
+    flex: 2;
+   position: relative;
+   
+}
+.text-inside{
+    position: absolute;
+    left: 16px;
+    bottom: 8px;
+    color: white;
+}
+
+.outstanding-project-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    
+   
+}
+
+.op-left{
+    
+    width:100%;
+    height:400px;
+   
+}
+.op-right-top{
+   
+ 
+    width:100%;
+    height: 198px;
+    
+    
+}
+.op-right-bot{
+   
+    
+    width:100%;
+    height: 198px;
+    
+    
+}
+.outstanding-project-right-top, .outstanding-project-right-bot{
+    position: relative;
+    
+}
+.news{
+    padding: 0 5%;
+}
+.news-head{
+    display:flex;
+    justify-content:space-between;
+}
+.news-head-left{
+    display: flex;
+}
+.news-head-text{
+    margin: auto;
+}
+
+.news-newest{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.news-info{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 5%;
+}
+.news-time{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 0 1%;
+    margin-right: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.news-date{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.news-title{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.news-img{
+    width: 360px;
+    height: 200px;
+}
+.news-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.news-list-mid, .news-list-last{
+    padding: 0 1%;
 }
